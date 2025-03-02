@@ -11,7 +11,7 @@ app.include_router(router_crypto)
 origins = [
         # Add your allowed origins here 
         # domain and port where you run your frontend application
-
+"https://crypto-tracker-forntend.onrender.com/"
 ]
 
 app.add_middleware(
